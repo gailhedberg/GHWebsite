@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>testing drop down menu</title>
+ <script src="http://ajax.aspnetcdn.com/ajax/jquery/jquery-1.7.1.js"></script>
+ <script type="text/javascript" src="welcome.js"></script>
+  <style>
+	.open {  display: block; }
+	.closed { display: none;  }	
+	a {
+		color: black;
+		text-decoration: none;
+	}
+	a:focus, a:hover { color: red; }
+	ul { list-style-type: none;  }
+  </style>
+</head>
+
+<body>
+	<h2>welcome to today: <span id="dayofweek1"></span></h2>
+	<a href="#" id="link">Mouse over here to see <span id="dayofweek2"></span>'s list...</a>
+	
+	<div id="divlist" class="closed">
+		<ul id="ul-list">
+			<li id="first">item 1</li>
+			<li id="second">item 2</li>
+			<li id="third">item 3</li>
+		</ul>
+	</div>
+		
+	<p id="demo"></p>
+</body>
+</html>

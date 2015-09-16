@@ -1,0 +1,5 @@
+<-- added this code to header.php in my wp site -->
+
+<script src="http://ajax.aspnetcdn.com/ajax/jquery/jquery-1.7.1.js"></script>
+<script type="text/javascript" src="/wp-includes/familyphotos.js"></script>
+<script type="text/javascript" src="/wp-includes/welcome.js"></script>
