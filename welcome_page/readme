@@ -2,3 +2,7 @@ the javascript file welcome.js
 is part of www.gailhedberg.prosperitacademy.com
 
 welcome.html was used in stand-alone testing for this page
+js-added-to-wp - this file shows the php code added to the
+  wordpress header.php file so it knows about 
+  the custom javascript
+  
